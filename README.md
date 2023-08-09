@@ -27,8 +27,12 @@ python tools/create_data.py nuscenes-tracking --root-path data/nuscenes/v1.0-min
 ```
 
 
-## 🌵Train Code
+## 🌵Camera Code
 
+```
+tools\camera_visualization.py --result mini_track.json --show-dir work_dirs/cam_visualization/
+```
 
+`mini_track.json` is the inference json with `tracking_id`
 
 ## 🌵Key Model Files
