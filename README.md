@@ -2,6 +2,11 @@
 The visualization project of the BEV model inference result on [NuScenes Dataset](https://www.nuscenes.org/), including detBox and trackingLine!
 > We use Nuscenes v1.0-mini DATASET for example
 
+<img src="https://github.com/PrymceQ/nuScenes_TrajectoryVisualizationTool/blob/master/work_dirs/jpg1.png" width="460px">
+
+
+
+
 First of all, I need to thank some Github authors! [PF-Track](https://github.com/TRI-ML/PF-Track) | [SimpleTrack](https://github.com/tusen-ai/SimpleTrack) | [StreamPETR](https://github.com/exiawsh/StreamPETR)
 
 ## 🌵Necessary File Format
@@ -45,9 +50,9 @@ python tools/create_data.py nuscenes-tracking --root-path data/nuscenes/v1.0-min
 
 ## 🌵Data Prepare
 
-The final `json` data structure should like this.
+The final `json` data structure should like this, it should be notice that key `tracking_id` is necessary.
 
-<img src="https://github.com/PrymceQ/nuScenes_TrajectoryVisualizationTool/assets/109404970/799f01e0-adf1-4830-8706-04dfe13cac9d" width="260px">
+<img src="https://github.com/PrymceQ/nuScenes_TrajectoryVisualizationTool/blob/master/work_dirs/jpg1.png" width="460px">
 
 You can use the [code](https://github.com/PrymceQ/BEVModel_StreamPETR) here to prepare the `json` file with `tracking_id` key from the test result `json` file. 
 
