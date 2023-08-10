@@ -34,18 +34,25 @@ pip install -e ./
 
 
 ## 🌵Data create
+You need to create `pkl` files for v1.0mini: 
+
+`tracking_forecasting-mini_infos_train.pkl`
+
+`tracking_forecasting-mini_infos_val.pkl`
 
 ```
 python tools/create_data.py nuscenes-tracking --root-path data/nuscenes/v1.0-mini --out-dir data/nuscenes/v1.0-mini --extra-tag tracking_forecasting --version v1.0-mini --forecasting
 ```
 
 
-## 🌵Camera Code
+## 🌵Camera Visualization Code
 
 ```
-tools\camera_visualization.py --result mini_track.json --show-dir work_dirs/cam_visualization/
+tools/camera_visualization.py --result mini_track.json --show-dir work_dirs/cam_visualization/
 ```
 
-`mini_track.json` is the inference json with `tracking_id`
+## 🌵BEV Visualization Code
 
-## 🌵Key Model Files
+```
+tools/bev_traj_visualization.py projects/configs/tracking/petr/f3_q500_800x320.py --result mini_track.json --show-dir work_dirs/tracking_visualization/
+```
