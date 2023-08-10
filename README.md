@@ -2,12 +2,9 @@
 The visualization project of the BEV model inference result on [NuScenes Dataset](https://www.nuscenes.org/), including detBox and trackingLine!
 > We use Nuscenes v1.0-mini DATASET for example
 
-<img src="work_dirs/cam_visualization/fcbccedd61424f1b85dcbf8f897f9754/video 00_00_00-00_00_30.gif" width="460px">
+<img src="work_dirs/cam_visualization/fcbccedd61424f1b85dcbf8f897f9754/video 00_00_00-00_00_30.gif" width="660px">
 
-<img src="work_dirs/tracking_visualization/fcbccedd61424f1b85dcbf8f897f9754/videobev%2000_00_00-00_00_30.gif" width="460px">
-
-
-
+<img src="work_dirs/tracking_visualization/fcbccedd61424f1b85dcbf8f897f9754/videobev%2000_00_00-00_00_30.gif" width="660px">
 
 First of all, I need to thank some Github authors! [PF-Track](https://github.com/TRI-ML/PF-Track) | [SimpleTrack](https://github.com/tusen-ai/SimpleTrack) | [StreamPETR](https://github.com/exiawsh/StreamPETR)
 
