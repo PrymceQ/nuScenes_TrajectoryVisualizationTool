@@ -32,8 +32,7 @@ cd SimpleTrack
 pip install -e ./
 ```
 
-
-## 🌵Data create
+## 🌵Data Create
 You need to create `pkl` files for v1.0mini: 
 
 `tracking_forecasting-mini_infos_train.pkl`
@@ -44,6 +43,13 @@ You need to create `pkl` files for v1.0mini:
 python tools/create_data.py nuscenes-tracking --root-path data/nuscenes/v1.0-mini --out-dir data/nuscenes/v1.0-mini --extra-tag tracking_forecasting --version v1.0-mini --forecasting
 ```
 
+## 🌵Data Prepare
+
+The final `json` data structure should like this.
+
+<img src="https://github.com/PrymceQ/nuScenes_TrajectoryVisualizationTool/assets/109404970/799f01e0-adf1-4830-8706-04dfe13cac9d" width="260px">
+
+You can use the [code](https://github.com/PrymceQ/BEVModel_StreamPETR) here to prepare the `json` file with `tracking_id` key from the test result `json` file. 
 
 ## 🌵Camera Visualization Code
 
