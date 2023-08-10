@@ -38,8 +38,8 @@ cd SimpleTrack
 pip install -e ./
 ```
 
-## 🌵Data Create
-You need to create `pkl` files for v1.0mini: 
+## 🌵PKL Create
+Like othor bev models, you need to use `create_data.py` to create `pkl` files for v1.0mini: 
 
 `tracking_forecasting-mini_infos_train.pkl`
 
