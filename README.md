@@ -1,10 +1,8 @@
-# BEVTrack_vistool
-The visualization project of the BEV model inference result, including detBox and trackingLine!
+# nuScenes_TrajectoryVisualizationTool
+The visualization project of the BEV model inference result on [NuScenes Dataset](https://www.nuscenes.org/), including detBox and trackingLine!
 > We use Nuscenes v1.0-mini DATASET for example
 
-
-
-Thanks for the BEVFusion authors！[Paper](https://arxiv.org/abs/2110.06922) | [Code](https://github.com/WangYueFt/detr3d)
+First of all, I need to thank some Github authors! [PF-Track](https://github.com/TRI-ML/PF-Track) | [SimpleTrack](https://github.com/tusen-ai/SimpleTrack) | [StreamPETR](https://github.com/exiawsh/StreamPETR)
 
 ## 🌵Necessary File Format
 - data/nuscenes/
@@ -15,9 +13,24 @@ Thanks for the BEVFusion authors！[Paper](https://arxiv.org/abs/2110.06922) | [
     - v1.0-mini/
 - projects/
 - tools/
+- SimpleTrack/
 
 ## 🌵Build Envs
 
+You can refer to the [PF-Track](https://github.com/TRI-ML/PF-Track) configuration environment documentation. 
+
+Or use the Conda env configuration file we provide.
+
+```
+conda env create -f nuScenesTrajectoryVisualizationTool_env.yaml
+```
+
+as for `mot_3d` package,
+
+```
+cd SimpleTrack
+pip install -e ./
+```
 
 
 ## 🌵Data create
