@@ -2,7 +2,9 @@
 The visualization project of the BEV model inference result on [NuScenes Dataset](https://www.nuscenes.org/), including detBox and trackingLine!
 > We use Nuscenes v1.0-mini DATASET for example
 
-<img src="https://github.com/PrymceQ/nuScenes_TrajectoryVisualizationTool/blob/master/work_dirs/jpg1.png" width="460px">
+<img src="work_dirs/cam_visualization/fcbccedd61424f1b85dcbf8f897f9754/video 00_00_00-00_00_30.gif" width="460px">
+
+<img src="work_dirs/tracking_visualization/fcbccedd61424f1b85dcbf8f897f9754/videobev%2000_00_00-00_00_30.gif" width="460px">
 
 
 
