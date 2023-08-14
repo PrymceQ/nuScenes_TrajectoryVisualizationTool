@@ -9,6 +9,7 @@ First of all, I need to thank some Github authors! [PF-Track](https://github.com
 
 <img src="work_dirs/tracking_visualization/fcbccedd61424f1b85dcbf8f897f9754/videobev%2000_00_00-00_00_30.gif" width="660px">
 
+> The green dashed line represents the GT trajectory; solid lines represent predicted objects and trajectories, and the same color represents the same predicted object.
 
 ## 🌵Necessary File Format
 - data/nuscenes/
